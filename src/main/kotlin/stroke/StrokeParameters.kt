@@ -1,4 +1,4 @@
-package strokes
+package stroke
 
 data class StrokeParameters(
     val length: Double,
