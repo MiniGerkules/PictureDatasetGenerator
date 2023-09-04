@@ -2,6 +2,6 @@ package stroke
 
 import java.awt.Color
 
-data class Vertex(val x: Double, val y: Double,
-                  val diameter: Double,
+data class Vertex(val position: Position,
+                  val radius: Double,
                   val color: Color)
