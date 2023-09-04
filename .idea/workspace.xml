@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14366d02-4d84-481c-864a-1f43f2d213be" name="Changes" comment="" />
+    <list default="true" id="14366d02-4d84-481c-864a-1f43f2d213be" name="Changes" comment="Split Stroke interface to Stroke and StrokeSkeleton interfaces">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/stroke/Stroke.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/stroke/Stroke.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/stroke/StrokeSkeleton.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/stroke/StrokeSkeleton.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/stroke/Vertex.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/stroke/Vertex.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,25 +22,52 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin Data Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2UtgbghJ6MofLGhOwDrISxrCuhS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;kotlin&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="stroke" />
+      <recent name="strokeGenerator" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="stroke" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,6 +77,91 @@
       <option name="presentableId" value="Default" />
       <updated>1693764364543</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1693764497784</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693764497784</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add data class for vertex">
+      <option name="closed" value="true" />
+      <created>1693765864556</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693765864556</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add data class for parameters of strokes">
+      <option name="closed" value="true" />
+      <created>1693765876650</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693765876650</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add interface for strokes">
+      <option name="closed" value="true" />
+      <created>1693765887566</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693765887566</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Rename module from strokes to stroke">
+      <option name="closed" value="true" />
+      <created>1693771557625</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693771557625</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add color property to Vertex data class">
+      <option name="closed" value="true" />
+      <created>1693773046982</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693773046982</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Rename method and its argument">
+      <option name="closed" value="true" />
+      <created>1693773070927</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693773070927</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Change return type of Stroke.toPicture method">
+      <option name="closed" value="true" />
+      <created>1693775159790</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1693775159790</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Split Stroke interface to Stroke and StrokeSkeleton interfaces">
+      <option name="closed" value="true" />
+      <created>1693781614105</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1693781614105</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Add data class for vertex" />
+    <MESSAGE value="Add data class for parameters of strokes" />
+    <MESSAGE value="Add interface for strokes" />
+    <MESSAGE value="Rename module from strokes to stroke" />
+    <MESSAGE value="Add color property to Vertex data class" />
+    <MESSAGE value="Rename method and its argument" />
+    <MESSAGE value="Change return type of Stroke.toPicture method" />
+    <MESSAGE value="Split Stroke interface to Stroke and StrokeSkeleton interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Split Stroke interface to Stroke and StrokeSkeleton interfaces" />
   </component>
 </project>
