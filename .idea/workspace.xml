@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14366d02-4d84-481c-864a-1f43f2d213be" name="Changes" comment="Split Stroke interface to Stroke and StrokeSkeleton interfaces">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="14366d02-4d84-481c-864a-1f43f2d213be" name="Changes" comment="Change formatting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/stroke/Stroke.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/stroke/Stroke.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/stroke/StrokeSkeleton.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/stroke/StrokeSkeleton.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/stroke/Vertex.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/stroke/Vertex.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +144,79 @@
       <option name="project" value="LOCAL" />
       <updated>1693781614105</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add type that describe position on 2D surface">
+      <option name="closed" value="true" />
+      <created>1693862432187</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1693862432187</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add type that describe bounds of picture">
+      <option name="closed" value="true" />
+      <created>1693862451886</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1693862451886</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Update .idea directory">
+      <option name="closed" value="true" />
+      <created>1693862477531</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1693862477531</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add function to count length between 2 vertexes">
+      <option name="closed" value="true" />
+      <created>1693862522546</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1693862522546</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add function to count K coefficient from line function">
+      <option name="closed" value="true" />
+      <created>1693862586925</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1693862586925</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add functions for calculating a polygon located on two vertexes">
+      <option name="closed" value="true" />
+      <created>1693862688165</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1693862688165</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add first implementation of SimpleStroke">
+      <option name="closed" value="true" />
+      <created>1693862719243</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1693862719243</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add PictureStroke implementation of Stroke interface">
+      <option name="closed" value="true" />
+      <created>1693862749220</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1693862749220</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Change formatting">
+      <option name="closed" value="true" />
+      <created>1693862777280</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1693862777280</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -162,6 +229,15 @@
     <MESSAGE value="Rename method and its argument" />
     <MESSAGE value="Change return type of Stroke.toPicture method" />
     <MESSAGE value="Split Stroke interface to Stroke and StrokeSkeleton interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="Split Stroke interface to Stroke and StrokeSkeleton interfaces" />
+    <MESSAGE value="Add type that describe position on 2D surface" />
+    <MESSAGE value="Add type that describe bounds of picture" />
+    <MESSAGE value="Update .idea directory" />
+    <MESSAGE value="Add function to count length between 2 vertexes" />
+    <MESSAGE value="Add function to count K coefficient from line function" />
+    <MESSAGE value="Add functions for calculating a polygon located on two vertexes" />
+    <MESSAGE value="Add first implementation of SimpleStroke" />
+    <MESSAGE value="Add PictureStroke implementation of Stroke interface" />
+    <MESSAGE value="Change formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change formatting" />
   </component>
 </project>
